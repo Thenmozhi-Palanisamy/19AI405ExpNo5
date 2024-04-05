@@ -37,8 +37,9 @@ Feedback is provided in terms of heuristic function
 <p> Evaluate the fitness function or Heuristic Function</p>
 <h3>Step-4:</h3>
 <p> Lopp Step -2 and Step-3  until we achieve the score to be Zero to achieve Global Minima.</p>
-## program:
 
+## program:
+```
 import random
 import string
 def generate_random_solution(answer):
@@ -75,7 +76,7 @@ def SimpleHillClimbing():
 #solution=generate_random_solution(answer)
 #print(evaluate(solution,answer))
 SimpleHillClimbing()
-                
+```                
 <hr>
 <h2>Sample Input and Output</h2>
 <h2>Sample String:</h2> Artificial Intelligence
